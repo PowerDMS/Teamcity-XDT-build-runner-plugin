@@ -51,6 +51,7 @@ public class XdtRunner {
 
             args.add(configuration.pluginMsxdPath);
 
+            args.add("i");
 
             if (!configuration.inputPath[i].equals("")) {
                 args.add("s:" + configuration.inputPath[i]);
